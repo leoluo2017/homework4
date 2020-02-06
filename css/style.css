@@ -102,11 +102,15 @@ header p{
 .container{
   /*Your code here  */
   /* See documentation for mobile view */
-
+  display: grid;
+  grid-template-columns: 100px 400px 100px;
+  grid-template-rows: 30px auto auto auto auto auto 100px;
+  grid-row-gap: 15px;
 }
 .about, .method, .clients, .contact{
   /*Your code here */
   /* See documentation for mobile view */
+  
 
 }
 
