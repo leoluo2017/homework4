@@ -98,6 +98,7 @@ header{
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
+  background-color: black;
   color: white;
   height: 400px;                /* Parallax effect */
 
