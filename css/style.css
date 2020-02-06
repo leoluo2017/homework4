@@ -44,10 +44,6 @@ nav a:hover{
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-
-  position: absolute;
-  margin: 40px;
-
   /*Your code here - position relative to the parent */
   /*Your code here - place 40px higher 
   Skip to content link (links with skip class) should have the following styles on all screen sizes
@@ -55,19 +51,25 @@ link is absolutely positioned, margin is set 40px above the margin of the page s
 When in focus a  “skip to content” link should reposition to the top left hand corner of the page.
   */
 
-
-
+  position: absolute;
+  top: -40px;
 }
 
 /*Your code here*/
 /*Add the selector and rule to move the skip 
 link to the exact top of the page.*/
+ .skip a:focus{
+  top: 0;
+ }
  
-
 /*Your code here*/
 /*Add the selector and code to put a 2px black 
 border around all elements in focus.*/
-  
+/* 
+*.focus{
+  border:2px solid black;
+}
+   */
 
 footer{
   background-color: black;
